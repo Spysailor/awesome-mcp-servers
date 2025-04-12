@@ -1,0 +1,122 @@
+Nom,URL,Catégorie,Langage,Portée,Système d'exploitation,Description,Est officiel
+julien040/anyquery,https://github.com/julien040/anyquery,Agrégateurs,Go,Local/Cloud,,Interrogez plus de 40 applications avec un seul binaire en utilisant SQL,Non
+PipedreamHQ/pipedream,https://github.com/PipedreamHQ/pipedream/tree/master/modelcontextprotocol,Agrégateurs,,Cloud/Local,,Connectez-vous à 2 500 API avec 8 000+ outils préfabriqués,Non
+OpenMCP,https://github.com/wegotdocs/open-mcp,Agrégateurs,TypeScript,Local,macOS/Windows/Linux,Transformez une API web en serveur MCP en 10 secondes,Non
+VeriTeknik/pluggedin-mcp-proxy,https://github.com/VeriTeknik/pluggedin-mcp-proxy,Agrégateurs,TypeScript,Local,,Un serveur proxy complet qui combine plusieurs serveurs MCP,Non
+MetaMCP,https://github.com/metatool-ai/metatool-app,Agrégateurs,TypeScript,Cloud/Local,macOS/Windows/Linux,MetaMCP est le middleware MCP unifié qui gère vos connexions MCP,Non
+abhiemj/manim-mcp-server,https://github.com/abhiemj/manim-mcp-server,Art et Culture,Python,Local,Windows/Linux,Un serveur MCP local qui génère des animations en utilisant Manim,Non
+burningion/video-editing-mcp,https://github.com/burningion/video-editing-mcp,Art et Culture,Python,,,Ajouter analyser rechercher et générer des montages vidéo,Non
+djalal/quran-mcp-server,https://github.com/djalal/quran-mcp-server,Art et Culture,TypeScript,Cloud,,Serveur MCP pour interagir avec le corpus Quran.com,Non
+r-huijts/rijksmuseum-mcp,https://github.com/r-huijts/rijksmuseum-mcp,Art et Culture,TypeScript,Cloud,,Intégration de l'API du Rijksmuseum pour les œuvres d'art,Non
+r-huijts/oorlogsbronnen-mcp,https://github.com/r-huijts/oorlogsbronnen-mcp,Art et Culture,TypeScript,Cloud,,Intégration de l'API Oorlogsbronnen (Sources de guerre),Non
+samuelgursky/davinci-resolve-mcp,https://github.com/samuelgursky/davinci-resolve-mcp,Art et Culture,Python,,,Intégration de serveur MCP pour DaVinci Resolve,Non
+yuna0x0/anilist-mcp,https://github.com/yuna0x0/anilist-mcp,Art et Culture,TypeScript,Cloud,,Un serveur MCP intégrant l'API AniList pour les informations sur les animes et mangas,Non
+diivi/aseprite-mcp,https://github.com/diivi/aseprite-mcp,Art et Culture,Python,Local,,Serveur MCP utilisant l'API Aseprite pour créer de l'art pixel,Non
+34892002/bilibili-mcp-js,https://github.com/34892002/bilibili-mcp-js,Automatisation de Navigateur,TypeScript,Local,,Un serveur MCP qui prend en charge la recherche de contenu Bilibili,Non
+automatalabs/mcp-server-playwright,https://github.com/Automata-Labs-team/MCP-Server-Playwright,Automatisation de Navigateur,Python,,,Un serveur MCP pour l'automatisation de navigateur utilisant Playwright,Non
+blackwhite084/playwright-plus-python-mcp,https://github.com/blackwhite084/playwright-plus-python-mcp,Automatisation de Navigateur,Python,,,Un serveur MCP python utilisant Playwright,Non
+browserbase/mcp-server-browserbase,https://github.com/browserbase/mcp-server-browserbase,Automatisation de Navigateur,TypeScript,,,Automatisez les interactions avec le navigateur dans le cloud,Oui
+browsermcp/mcp,https://github.com/browsermcp/mcp,Automatisation de Navigateur,TypeScript,Local,,Automatisez votre navigateur Chrome local,Non
+co-browser/browser-use-mcp-server,https://github.com/co-browser/browser-use-mcp-server,Automatisation de Navigateur,Python,,,Serveur MCP pour browser-use,Non
+executeautomation/playwright-mcp-server,https://github.com/executeautomation/mcp-playwright,Automatisation de Navigateur,TypeScript,,,Un serveur MCP utilisant Playwright,Non
+eyalzh/browser-control-mcp,https://github.com/eyalzh/browser-control-mcp,Automatisation de Navigateur,TypeScript,Local,,Un serveur MCP associé à une extension de navigateur,Non
+fradser/mcp-server-apple-reminders,https://github.com/FradSer/mcp-server-apple-reminders,Automatisation de Navigateur,TypeScript,Local,macOS,Un serveur MCP pour interagir avec Apple Reminders,Non
+getrupt/ashra-mcp,https://github.com/getrupt/ashra-mcp,Automatisation de Navigateur,Python,Local,,Extrayez des données structurées de n'importe quel site web,Non
+kimtaeyoon83/mcp-server-youtube-transcript,https://github.com/kimtaeyoon83/mcp-server-youtube-transcript,Automatisation de Navigateur,TypeScript,Cloud,,Récupérez les sous-titres et transcriptions YouTube,Non
+kimtth/mcp-aoai-web-browsing,https://github.com/kimtth/mcp-aoai-web-browsing,Automatisation de Navigateur,Python,Local,,Une implémentation minimale serveur/client MCP,Non
+microsoft/playwright-mcp,https://github.com/microsoft/playwright-mcp,Automatisation de Navigateur,,,,Serveur MCP officiel Microsoft Playwright,Non
+modelcontextprotocol/server-puppeteer,https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer,Automatisation de Navigateur,TypeScript,Local,,Automatisation de navigateur pour le web scraping et l'interaction,Non
+ndthanhdev/mcp-browser-kit,https://github.com/ndthanhdev/mcp-browser-kit,Automatisation de Navigateur,TypeScript,Local,,Un serveur MCP pour interagir avec les navigateurs,Non
+pskill9/web-search,https://github.com/pskill9/web-search,Automatisation de Navigateur,TypeScript,Local,,Un serveur MCP pour la recherche web gratuite,Non
+recursechat/mcp-server-apple-shortcuts,https://github.com/recursechat/mcp-server-apple-shortcuts,Automatisation de Navigateur,TypeScript,Local,macOS,Une intégration de serveur MCP avec Apple Shortcuts,Non
+alexbakers/mcp-ipfs,https://github.com/alexbakers/mcp-ipfs,Plateformes Cloud,TypeScript,Cloud,,Téléchargement et manipulation du stockage IPFS,Non
+VmLia/books-mcp-server,https://github.com/VmLia/books-mcp-server,Plateformes Cloud,TypeScript,Cloud,,Un serveur MCP utilisé pour interroger des livres,Non
+alexei-led/aws-mcp-server,https://github.com/alexei-led/aws-mcp-server,Plateformes Cloud,Python,Cloud,,Un serveur léger mais puissant pour les commandes AWS CLI,Non
+alexei-led/k8s-mcp-server,https://github.com/alexei-led/k8s-mcp-server,Plateformes Cloud,Python,,,Un serveur pour les commandes CLI Kubernetes,Non
+bright8192/esxi-mcp-server,https://github.com/bright8192/esxi-mcp-server,Plateformes Cloud,Python,Cloud,,Un serveur de gestion VMware ESXi/vCenter basé sur MCP,Non
+cloudflare/mcp-server-cloudflare,https://github.com/cloudflare/mcp-server-cloudflare,Plateformes Cloud,TypeScript,Cloud,,Intégration avec les services Cloudflare,Oui
+flux159/mcp-server-kubernetes,https://github.com/Flux159/mcp-server-kubernetes,Plateformes Cloud,TypeScript,Cloud/Local,,Implémentation TypeScript pour Kubernetes,Non
+hardik-id/azure-resource-graph-mcp-server,https://github.com/hardik-id/azure-resource-graph-mcp-server,Plateformes Cloud,TypeScript,Cloud/Local,,Serveur pour Azure Resource Graph,Non
+jdubois/azure-cli-mcp,https://github.com/jdubois/azure-cli-mcp,Plateformes Cloud,,,,Un wrapper autour de la ligne de commande Azure CLI,Non
+johnneerdael/netskope-mcp,https://github.com/johnneerdael/netskope-mcp,Plateformes Cloud,,Cloud,,Un MCP pour Netskope Private Access,Non
+manusa/Kubernetes MCP Server,https://github.com/manusa/kubernetes-mcp-server,Plateformes Cloud,Go,Local,,Un serveur MCP Kubernetes avec support pour OpenShift,Non
+nwiizo/tfmcp,https://github.com/nwiizo/tfmcp,Plateformes Cloud,Rust,Local,,Un serveur MCP Terraform pour gérer des environnements Terraform,Non
+rohitg00/kubectl-mcp-server,https://github.com/rohitg00/kubectl-mcp-server,Plateformes Cloud,Python,Cloud/Local,,Un serveur Model Context Protocol pour Kubernetes,Non
+strowk/mcp-k8s-go,https://github.com/strowk/mcp-k8s-go,Plateformes Cloud,Go,Cloud/Local,,Opérations de cluster Kubernetes via MCP,Non
+thunderboltsid/mcp-nutanix,https://github.com/thunderboltsid/mcp-nutanix,Plateformes Cloud,Go,Local/Cloud,,Serveur MCP pour Nutanix Prism Central,Non
+weibaohui/k8m,https://github.com/weibaohui/k8m,Plateformes Cloud,Go,Cloud/Local,,Fournit une gestion Kubernetes multi-clusters MCP,Non
+weibaohui/kom,https://github.com/weibaohui/kom,Plateformes Cloud,Go,Cloud/Local,,Fournit une gestion Kubernetes multi-clusters MCP,Non
+wenhuwang/mcp-k8s-eye,https://github.com/wenhuwang/mcp-k8s-eye,Plateformes Cloud,Go,Cloud/Local,,Serveur MCP pour la gestion Kubernetes,Non
+erikhoward/adls-mcp-server,https://github.com/erikhoward/adls-mcp-server,Plateformes Cloud,Python,Cloud/Local,,Serveur MCP pour Azure Data Lake Storage,Non
+silenceper/mcp-k8s,https://github.com/silenceper/mcp-k8s,Plateformes Cloud,Go,Cloud/Local,,MCP-K8S est un outil de gestion Kubernetes piloté par l'IA,Non
+pydantic/pydantic-ai/mcp-run-python,https://github.com/pydantic/pydantic-ai/tree/main/mcp-run-python,Exécution de Code,Python,Local,,Exécutez du code Python dans un environnement sécurisé,Non
+yepcode/mcp-server-js,https://github.com/yepcode/mcp-server-js,Exécution de Code,TypeScript,Cloud,,Exécutez n'importe quel code généré par LLM,Oui
+oraios/serena,https://github.com/oraios/serena,Agents de Codage,Python,Local,,Un agent de codage complet utilisant des serveurs de langage,Non
+ezyang/codemcp,https://github.com/ezyang/codemcp,Agents de Codage,Python,Local,,Agent de codage avec des outils de base,Non
+wonderwhy-er/DesktopCommanderMCP,https://github.com/wonderwhy-er/DesktopCommanderMCP,Agents de Codage,TypeScript,Local,,Outils améliorés pour le codage,Non
+ferrislucas/iterm-mcp,https://github.com/ferrislucas/iterm-mcp,Ligne de Commande,Python,,,Un serveur Model Context Protocol pour iTerm,Non
+g0t4/mcp-server-commands,https://github.com/g0t4/mcp-server-commands,Ligne de Commande,TypeScript,Local,,Exécutez n'importe quelle commande avec des outils,Non
+maxim-saplin/mcp_safe_local_python_executor,https://github.com/maxim-saplin/mcp_safe_local_python_executor,Ligne de Commande,,,,Interpréteur Python sécurisé,Non
+MladenSU/cli-mcp-server,https://github.com/MladenSU/cli-mcp-server,Ligne de Commande,Python,Local,,Interface de ligne de commande sécurisée,Non
+OthmaneBlial/term_mcp_deepseek,https://github.com/OthmaneBlial/term_mcp_deepseek,Ligne de Commande,Python,Local,,Un serveur DeepSeek pour terminal,Non
+tumf/mcp-shell-server,https://github.com/tumf/mcp-shell-server,Ligne de Commande,,,,Un serveur d'exécution de commandes shell sécurisé,Non
+wonderwhy-er/DesktopCommanderMCP,https://github.com/wonderwhy-er/DesktopCommanderMCP,Ligne de Commande,TypeScript,Local,macOS/Windows/Linux,Un couteau suisse pour les programmes et fichiers,Non
+AbdelStark/nostr-mcp,https://github.com/AbdelStark/nostr-mcp,Communication,,Cloud,,Un serveur MCP Nostr pour interagir avec Nostr,Non
+adhikasp/mcp-twikit,https://github.com/adhikasp/mcp-twikit,Communication,Python,Cloud,,Interagir avec Twitter,Non
+agentmail-toolkit/mcp,https://github.com/agentmail-to/agentmail-toolkit/tree/main/mcp,Communication,Python,,,Un serveur MCP pour les emails,Non
+arpitbatra123/mcp-googletasks,https://github.com/arpitbatra123/mcp-googletasks,Communication,TypeScript,Cloud,,Un serveur MCP pour Google Tasks,Non
+carterlasalle/mac_messages_mcp,https://github.com/carterlasalle/mac_messages_mcp,Communication,,Local,macOS,Un serveur MCP pour iMessage,Non
+chaindead/telegram-mcp,https://github.com/chaindead/telegram-mcp,Communication,Go,Local,,Intégration de l'API Telegram,Non
+elie222/inbox-zero,https://github.com/elie222/inbox-zero/tree/main/apps/mcp-server,Communication,Python,Cloud,,Un serveur MCP pour Inbox Zero,Non
+gotoolkits/wecombot,https://github.com/gotoolkits/mcp-wecombot-server.git,Communication,,Cloud,,Une application serveur MCP pour WeCom,Non
+hannesrudolph/imessage-query-fastmcp-mcp-server,https://github.com/hannesrudolph/imessage-query-fastmcp-mcp-server,Communication,Python,Local,macOS,Un serveur MCP pour iMessage,Non
+jagan-shanmugam/mattermost-mcp-host,https://github.com/jagan-shanmugam/mattermost-mcp-host,Communication,Python,Local,,Un serveur MCP pour Mattermost,Non
+lharries/whatsapp-mcp,https://github.com/lharries/whatsapp-mcp,Communication,Python/Go,,,Un serveur MCP pour WhatsApp,Non
+MarkusPfundstein/mcp-gsuite,https://github.com/MarkusPfundstein/mcp-gsuite,Communication,Python,Cloud,,Intégration avec Gmail et Google Calendar,Non
+modelcontextprotocol/server-bluesky,https://github.com/keturiosakys/bluesky-context-server,Communication,TypeScript,Cloud,,Intégration d'instance Bluesky,Non
+modelcontextprotocol/server-slack,https://github.com/modelcontextprotocol/servers/tree/main/src/slack,Communication,TypeScript,Cloud,,Intégration de Slack,Non
+sawa-zen/vrchat-mcp,https://github.com/sawa-zen/vrchat-mcp,Communication,TypeScript,Local,,Serveur MCP pour l'API VRChat,Non
+takumi0706/google-calendar-mcp,https://github.com/takumi0706/google-calendar-mcp,Communication,TypeScript,Cloud,,Un serveur MCP pour Google Calendar,Non
+teddyzxcv/ntfy-mcp,https://github.com/teddyzxcv/ntfy-mcp,Communication,,,,Le serveur MCP qui envoie des notifications via ntfy,Non
+userad/didlogic_mcp,https://github.com/UserAd/didlogic_mcp,Communication,Python,Cloud,,Un serveur MCP pour DIDLogic,Non
+zcaceres/gtasks-mcp,https://github.com/zcaceres/gtasks-mcp,Communication,TypeScript,Cloud,,Un serveur MCP pour Google Tasks,Non
+InditexTech/mcp-teams-server,https://github.com/InditexTech/mcp-teams-server,Communication,Python,Cloud,,Serveur MCP pour Microsoft Teams,Non
+softeria/ms-365-mcp-server,https://github.com/softeria/ms-365-mcp-server,Communication,TypeScript,Cloud,,Serveur MCP pour Microsoft 365,Non
+Aiven-Open/mcp-aiven,https://github.com/Aiven-Open/mcp-aiven,Bases de Données,Python,Cloud,,Naviguez dans vos projets Aiven,Oui
+alexanderzuev/supabase-mcp-server,https://github.com/alexander-zuev/supabase-mcp-server,Bases de Données,,,,Serveur MCP Supabase,Non
+aliyun/alibabacloud-tablestore-mcp-server,https://github.com/aliyun/alibabacloud-tablestore-mcp-server,Bases de Données,Java/Python,Cloud,,Service MCP pour Tablestore,Non
+benborla29/mcp-server-mysql,https://github.com/benborla/mcp-server-mysql,Bases de Données,,Cloud/Local,,Intégration MySQL en NodeJS,Non
+bytebase/dbhub,https://github.com/bytebase/dbhub,Bases de Données,TypeScript,Local,,Serveur MCP universel pour bases de données,Non
+c4pt0r/mcp-server-tidb,https://github.com/c4pt0r/mcp-server-tidb,Bases de Données,Python,Cloud,,Intégration de base de données TiDB,Non
+Canner/wren-engine,https://github.com/Canner/wren-engine,Bases de Données,Python/Rust,Local,,Moteur sémantique pour MCP et agents IA,Non
+centralmind/gateway,https://github.com/centralmind/gateway,Bases de Données,Go,Local,macOS/Windows,Serveur MCP et SSE qui génère des API,Non
+chroma-core/chroma-mcp,https://github.com/chroma-core/chroma-mcp,Bases de Données,Python,Cloud/Local,,Serveur MCP Chroma,Oui
+ClickHouse/mcp-clickhouse,https://github.com/ClickHouse/mcp-clickhouse,Bases de Données,Python,Cloud,,Intégration ClickHouse,Non
+confluentinc/mcp-confluent,https://github.com/confluentinc/mcp-confluent,Bases de Données,Python,Cloud,,Intégration Confluent,Non
+cr7258/elasticsearch-mcp-server,https://github.com/cr7258/elasticsearch-mcp-server,Bases de Données,Python,Local,,Intégration Elasticsearch,Non
+runekaagaard/mcp-alchemy,https://github.com/runekaagaard/mcp-alchemy,Bases de Données,Python,Local,,Intégration SQLAlchemy universelle,Non
+sirmews/mcp-pinecone,https://github.com/sirmews/mcp-pinecone,Bases de Données,Python,Cloud,,Intégration Pinecone avec capacités de recherche vectorielle,Non
+supabase-community/supabase-mcp,https://github.com/supabase-community/supabase-mcp,Bases de Données,TypeScript,Cloud,,Serveur MCP officiel Supabase,Oui
+FastMCP,https://github.com/jlowin/fastmcp,Frameworks,Python,,,Framework pour serveurs MCP en Python,Non
+FastMCP,https://github.com/punkpeye/fastmcp,Frameworks,TypeScript,,,Framework pour serveurs MCP en TypeScript,Non
+Foxy Contexts,https://github.com/strowk/foxy-contexts,Frameworks,Go,,,Bibliothèque Golang pour MCP déclaratif,Non
+gabfr/waha-api-mcp-server,https://github.com/gabfr/waha-api-mcp-server,Frameworks,TypeScript,,,Serveur MCP avec spécifications openAPI,Non
+Genkit MCP,https://github.com/firebase/genkit/tree/main/js/plugins/mcp,Frameworks,TypeScript,,,Intégration entre Genkit et le MCP,Non
+http4k MCP SDK,https://mcp.http4k.org,Frameworks,Python,,,SDK Kotlin pour http4k,Non
+lastmile-ai/mcp-agent,https://github.com/lastmile-ai/mcp-agent,Frameworks,,,,Construction d'agents avec serveurs MCP,Non
+LiteMCP,https://github.com/wong2/litemcp,Frameworks,TypeScript,,,Framework pour serveurs MCP en JavaScript/TypeScript,Non
+marimo-team/codemirror-mcp,https://github.com/marimo-team/codemirror-mcp,Frameworks,,,,Extension CodeMirror pour MCP,Non
+mark3labs/mcp-go,https://github.com/mark3labs/mcp-go,Frameworks,Go,,,SDK Golang pour MCP,Non
+mcp-framework,https://github.com/QuantGeekDev/mcp-framework,Frameworks,TypeScript,,,Framework TypeScript pour MCP,Non
+mcp-proxy,https://github.com/punkpeye/mcp-proxy,Frameworks,TypeScript,,,Proxy SSE TypeScript pour MCP,Non
+mcp-rs-template,https://github.com/linux-china/mcp-rs-template,Frameworks,Rust,,,Modèle de serveur MCP pour Rust,Non
+metoro-io/mcp-golang,https://github.com/metoro-io/mcp-golang,Frameworks,Go,,,Framework Golang pour MCP,Non
+mullerhai/sakura-mcp,https://github.com/mullerhai/sakura-mcp,Frameworks,Rust/Java,,,Framework MCP Scala,Non
+paulotaylor/voyp-mcp,https://github.com/paulotaylor/voyp-mcp,Frameworks,TypeScript,,,Serveur MCP pour appels vocaux,Non
+poem-web/poem-mcpserver,https://github.com/poem-web/poem/tree/master/poem-mcpserver,Frameworks,Rust,,,MCP pour Poem,Non
+quarkiverse/quarkus-mcp-server,https://github.com/quarkiverse/quarkus-mcp-server,Frameworks,Java,,,SDK Java pour Quarkus,Non
+rectalogic/langchain-mcp,https://github.com/rectalogic/langchain-mcp,Frameworks,Python,,,Support MCP dans LangChain,Non
+ribeirogab/simple-mcp,https://github.com/ribeirogab/simple-mcp,Frameworks,TypeScript,,,Bibliothèque TypeScript pour MCP,Non
+salty-flower/ModelContextProtocol.NET,https://github.com/salty-flower/ModelContextProtocol.NET,Frameworks,C#,Local,,SDK C# pour .NET 9,Non
+spring-ai-mcp,https://github.com/spring-projects-experimental/spring-ai-mcp,Frameworks,Java,,,SDK Java et Spring pour MCP,Non
+Template MCP Server,https://github.com/modelcontextprotocol/servers/tree/main/src/template,Frameworks,TypeScript,,,Modèle simple pour MCP,Non
