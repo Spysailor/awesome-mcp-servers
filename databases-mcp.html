@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCP pour Bases de Données - Awesome MCP Servers</title>
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #6366f1;
+            --accent-color: #8b5cf6;
+            --background-color: #f8fafc;
+            --card-color: #ffffff;
+            --text-color: #1e293b;
+            --text-light: #64748b;
+            --border-color: #e2e8f0;
+            --hover-color: #f1f5f9;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            color: var(--accent-color);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--accent-color);
+        }
+
+        .card-section {
+            background-color: var(--card-color);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        .server-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .server-item {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .server-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .server-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .server-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 0;
+        }
+
+        .server-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .badge {
+            font-size: 0.9rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            background-color: var(--hover-color);
+            color: var(--text-color);
+        }
+
+        .search-container {
+            margin-bottom: 2rem;
+        }
+
+        #search-input {
+            width: 100%;
+            padding: 0.8rem;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            font-size: 1rem;
+            outline: none;
+        }
+
+        #search-input:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+        }
+
+        .filter-container {
+            margin-bottom: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .filter-btn {
+            background-color: var(--card-color);
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            background-color: var(--hover-color);
+        }
+
+        .filter-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .server-description {
+            margin: 0.5rem 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-light);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .server-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .server-badges {
+                margin-top: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MCP pour Bases de Données</h1>
+            <p>Une collection de serveurs MCP dédiés à l'accès et la gestion des bases de données.</p>
+            <div class="nav-buttons">
+                <a href="index.html" class="button">Accueil</a>
+                <a href="README.html" class="button">Liste Complète</a>
+            </div>
+        </header>
+
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Rechercher des serveurs MCP pour bases de données...">
+        </div>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Tous</button>
+            <button class="filter-btn" data-filter="relational">Bases Relationnelles</button>
+            <button class="filter-btn" data-filter="nosql">NoSQL</button>
+            <button class="filter-btn" data-filter="graph">Graphes</button>
+            <button class="filter-btn" data-filter="vector">Vectorielles</button>
+        </div>
+
+        <section class="card-section">
+            <h2>Bases de Données Relationnelles</h2>
+            
+            <ul class="server-list" data-category="relational">
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/Aiven-Open/mcp-aiven">Aiven-Open/mcp-aiven</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🎖️ Officiel</span>
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Naviguez dans vos projets Aiven et interagir avec les services PostgreSQL®, Apache Kafka®, ClickHouse® et OpenSearch®.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/alexander-zuev/supabase-mcp-server">alexanderzuev/supabase-mcp-server</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">📇 TypeScript</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP Supabase avec support pour l'exécution de requêtes SQL et outils d'exploration de base de données.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/benborla/mcp-server-mysql">benborla29/mcp-server-mysql</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">☁️ Cloud</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Intégration MySQL en NodeJS avec contrôles d'accès configurables et inspection de schéma.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/c4pt0r/mcp-server-tidb">c4pt0r/mcp-server-tidb</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Intégration de base de données TiDB avec inspection de schéma et capacités de requête.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/ClickHouse/mcp-clickhouse">ClickHouse/mcp-clickhouse</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Intégration ClickHouse avec inspection de schéma et capacités de requête.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card-section">
+            <h2>Bases de Données NoSQL</h2>
+            
+            <ul class="server-list" data-category="nosql">
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/aliyun/alibabacloud-tablestore-mcp-server">aliyun/alibabacloud-tablestore-mcp-server</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">☕ Java</span>
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Service MCP pour Tablestore, inclut l'ajout de documents, recherche sémantique pour documents basée sur vecteurs et scalaires, compatible RAG, et serverless.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/domdomegg/airtable-mcp-server">domdomegg/airtable-mcp-server</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">📇 TypeScript</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Intégration de base de données Airtable avec inspection de schéma, capacités de lecture et d'écriture.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/edwinbernadus/nocodb-mcp-server">edwinbernadus/nocodb-mcp-server</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">📇 TypeScript</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Intégration de base de données Nocodb, capacités de lecture et d'écriture.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/fireproof-storage/mcp-database-server">fireproof-storage/mcp-database-server</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">📇 TypeScript</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Base de données de registre Fireproof avec synchronisation multi-utilisateurs.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/furey/mongodb-lens">furey/mongodb-lens</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">📇 TypeScript</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">MongoDB Lens: Serveur MCP complet pour les bases de données MongoDB.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card-section">
+            <h2>Bases de Données Graphes</h2>
+            
+            <ul class="server-list" data-category="graph">
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/Canner/wren-engine">Canner/wren-engine</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">🦀 Rust</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Le moteur sémantique pour MCP et agents IA.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/memgraph/mcp-memgraph">memgraph/mcp-memgraph</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP Memgraph - inclut un outil pour exécuter une requête sur Memgraph et une ressource de schéma.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/neo4j-contrib/mcp-neo4j">neo4j-contrib/mcp-neo4j</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Model Context Protocol avec Neo4j (Exécuter des requêtes, Knowledge Graph Memory, Gérer les instances Neo4j Aura).</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card-section">
+            <h2>Bases de Données Vectorielles</h2>
+            
+            <ul class="server-list" data-category="vector">
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/chroma-core/chroma-mcp">chroma-core/chroma-mcp</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🎖️ Officiel</span>
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">☁️ Cloud</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP Chroma pour accéder aux instances Chroma locales et cloud pour les capacités de récupération.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/qdrant/mcp-server-qdrant">qdrant/mcp-server-qdrant</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Un serveur MCP Qdrant.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/sirmews/mcp-pinecone">sirmews/mcp-pinecone</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Intégration Pinecone avec capacités de recherche vectorielle.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/weaviate/mcp-server-weaviate">weaviate/mcp-server-weaviate</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">📇 TypeScript</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Un serveur MCP pour se connecter à vos collections Weaviate comme base de connaissances ainsi que pour utiliser Weaviate comme stockage de mémoire de chat.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/zilliztech/mcp-server-milvus">zilliztech/mcp-server-milvus</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">🏠 Local</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP pour Milvus / Zilliz, permettant d'interagir avec votre base de données.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="card-section">
+            <h2>Outils Universels pour Bases de Données</h2>
+            
+            <ul class="server-list" data-category="universal">
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/bytebase/dbhub">bytebase/dbhub</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">📇 TypeScript</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP universel pour bases de données supportant les bases de données mainstream.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/centralmind/gateway">centralmind/gateway</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🏎️ Go</span>
+                            <span class="badge">🏠 Local</span>
+                            <span class="badge">🍎 macOS</span>
+                            <span class="badge">🪟 Windows</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP et SSE qui génère automatiquement une API basée sur le schéma et les données de la base de données. Supporte PostgreSQL, Clickhouse, MySQL, Snowflake, BigQuery, Supabase.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/googleapis/genai-toolbox">googleapis/genai-toolbox</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🏎️ Go</span>
+                            <span class="badge">☁️ Cloud</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP open source spécialisé dans les outils faciles, rapides et sécurisés pour les bases de données.</p>
+                </li>
+                
+                <li class="server-item">
+                    <div class="server-header">
+                        <h3 class="server-title"><a href="https://github.com/TheRaLabs/legion-mcp">TheRaLabs/legion-mcp</a></h3>
+                        <div class="server-badges">
+                            <span class="badge">🐍 Python</span>
+                            <span class="badge">🏠 Local</span>
+                        </div>
+                    </div>
+                    <p class="server-description">Serveur MCP universel pour bases de données supportant plusieurs types de bases de données (PostgreSQL, Redshift, CockroachDB, MySQL, RDS MySQL, Microsoft SQL Server, BigQuery, Oracle DB, et SQLite).</p>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Collection maintenue par la communauté. Contribuez sur <a href="https://github.com/Spysailor/awesome-mcp-servers">GitHub</a>.</p>
+            <a href="index.html" class="button">Retour à l'accueil</a>
+        </footer>
+    </div>
+
+    <script>
+        // Script pour la recherche et le filtrage
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('search-input');
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const serverItems = document.querySelectorAll('.server-item');
+            
+            // Fonction de recherche
+            searchInput.addEventListener('input', function() {
+                const searchTerm = this.value.toLowerCase();
+                
+                serverItems.forEach(item => {
+                    const title = item.querySelector('.server-title').textContent.toLowerCase();
+                    const description = item.querySelector('.server-description').textContent.toLowerCase();
+                    
+                    if (title.includes(searchTerm) || description.includes(searchTerm)) {
+                        item.style.display = '';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+            
+            // Fonction de filtrage
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Mettre à jour les classes actives
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filtrer les éléments
+                    if (filter === 'all') {
+                        serverItems.forEach(item => item.style.display = '');
+                    } else {
+                        serverItems.forEach(item => {
+                            const category = item.closest('.server-list').getAttribute('data-category');
+                            
+                            if (category === filter) {
+                                item.style.display = '';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
