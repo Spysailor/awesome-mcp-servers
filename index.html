@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome MCP Servers - Collection de serveurs MCP</title>
+    <style>
+        :root {
+            --primary-color: #4f46e5;
+            --secondary-color: #6366f1;
+            --accent-color: #8b5cf6;
+            --background-color: #f8fafc;
+            --card-color: #ffffff;
+            --text-color: #1e293b;
+            --text-light: #64748b;
+            --border-color: #e2e8f0;
+            --hover-color: #f1f5f9;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-color);
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--secondary-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 2rem;
+            margin-bottom: 0.8rem;
+            color: var(--accent-color);
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: var(--accent-color);
+        }
+
+        .intro {
+            background-color: var(--card-color);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .category-card {
+            background-color: var(--card-color);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        .category-card h3 {
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .card-content {
+            flex-grow: 1;
+        }
+
+        .card-footer {
+            margin-top: 1rem;
+            text-align: right;
+        }
+
+        .emoji {
+            font-size: 1.8rem;
+            margin-right: 0.5rem;
+        }
+
+        .count {
+            font-size: 0.9rem;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 20px;
+            padding: 0.2rem 0.6rem;
+            margin-left: auto;
+        }
+
+        .legend {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background-color: var(--card-color);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .legend-title {
+            font-weight: bold;
+            margin-bottom: 0.8rem;
+        }
+
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            color: var(--text-light);
+        }
+
+        @media (max-width: 768px) {
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .legend-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Awesome MCP Servers</h1>
+            <p>Une collection organisée de serveurs MCP (Model Context Protocol) pour étendre les capacités des LLM.</p>
+            <a href="https://github.com/Spysailor/awesome-mcp-servers" class="button">Voir sur GitHub</a>
+        </header>
+
+        <section class="intro">
+            <h2>Qu'est-ce que le MCP ?</h2>
+            <p>Le <strong>Model Context Protocol (MCP)</strong> est un protocole ouvert qui permet aux modèles d'IA d'interagir avec des ressources locales et distantes de manière sécurisée. Il étend les capacités des LLM en leur permettant d'accéder à des données en temps réel, d'exécuter des actions, et d'interagir avec divers services.</p>
+            <p>Explorez notre collection de serveurs MCP organisés par catégories pour trouver ceux qui correspondent à vos besoins.</p>
+            <a href="INTRODUCTION.html" class="button">En savoir plus sur le MCP</a>
+        </section>
+
+        <div class="legend">
+            <div class="legend-title">Légende</div>
+            <div class="legend-grid">
+                <div class="legend-item">🎖️ – Implémentation officielle</div>
+                <div class="legend-item">🐍 – Python</div>
+                <div class="legend-item">📇 – TypeScript</div>
+                <div class="legend-item">🏎️ – Go</div>
+                <div class="legend-item">🦀 – Rust</div>
+                <div class="legend-item">#️⃣ – C#</div>
+                <div class="legend-item">☕ – Java</div>
+                <div class="legend-item">☁️ – Service Cloud</div>
+                <div class="legend-item">🏠 – Service Local</div>
+                <div class="legend-item">📟 – Systèmes Embarqués</div>
+                <div class="legend-item">🍎 – Pour macOS</div>
+                <div class="legend-item">🪟 – Pour Windows</div>
+                <div class="legend-item">🐧 – Pour Linux</div>
+            </div>
+        </div>
+
+        <h2>Collections Spécialisées</h2>
+        <div class="category-grid">
+            <a href="databases-mcp.html" class="category-card">
+                <h3>🗄️ Bases de Données</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'accès et la manipulation de bases de données relationnelles, NoSQL, et vectorielles.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="count">40+</span>
+                </div>
+            </a>
+            <a href="finance-mcp.html" class="category-card">
+                <h3>💰 Finance & Fintech</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'accès aux données financières, cryptomonnaies et outils d'analyse.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="count">30+</span>
+                </div>
+            </a>
+            <a href="knowledge-memory-mcp.html" class="category-card">
+                <h3>🧠 Connaissance & Mémoire</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour la gestion de la connaissance, la mémoire persistante et les notes.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="count">25+</span>
+                </div>
+            </a>
+            <a href="frameworks-mcp.html" class="category-card">
+                <h3>🧰 Frameworks MCP</h3>
+                <div class="card-content">
+                    <p>Frameworks et outils pour développer vos propres serveurs MCP dans différents langages.</p>
+                </div>
+                <div class="card-footer">
+                    <span class="count">15+</span>
+                </div>
+            </a>
+        </div>
+
+        <h2>Catégories de Serveurs MCP</h2>
+        <div class="category-grid">
+            <a href="#agrégateurs" class="category-card">
+                <h3>🔗 Agrégateurs</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP qui regroupent plusieurs fonctionnalités ou se connectent à plusieurs services.</p>
+                </div>
+            </a>
+            <a href="#art-et-culture" class="category-card">
+                <h3>🎨 Art et Culture</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'accès aux contenus artistiques et culturels.</p>
+                </div>
+            </a>
+            <a href="#automatisation-de-navigateur" class="category-card">
+                <h3>📂 Automatisation de Navigateur</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour contrôler et automatiser les navigateurs web.</p>
+                </div>
+            </a>
+            <a href="#plateformes-cloud" class="category-card">
+                <h3>☁️ Plateformes Cloud</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'interaction avec les services cloud (AWS, Azure, Kubernetes, etc.).</p>
+                </div>
+            </a>
+            <a href="#exécution-de-code" class="category-card">
+                <h3>👨‍💻 Exécution de Code</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'exécution sécurisée de code généré par les LLM.</p>
+                </div>
+            </a>
+            <a href="#agents-de-codage" class="category-card">
+                <h3>🤖 Agents de Codage</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP spécialisés dans l'aide à la programmation et au développement.</p>
+                </div>
+            </a>
+            <a href="#ligne-de-commande" class="category-card">
+                <h3>🖥️ Ligne de Commande</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'interaction avec le terminal et l'exécution de commandes.</p>
+                </div>
+            </a>
+            <a href="#communication" class="category-card">
+                <h3>💬 Communication</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'interaction avec diverses plateformes de communication.</p>
+                </div>
+            </a>
+            <a href="#recherche" class="category-card">
+                <h3>🔎 Recherche</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour la recherche d'informations sur le web et dans des sources spécialisées.</p>
+                </div>
+            </a>
+            <a href="#sécurité" class="category-card">
+                <h3>🔒 Sécurité</h3>
+                <div class="card-content">
+                    <p>Serveurs MCP pour l'analyse de sécurité, la détection de vulnérabilités et l'analyse de binaires.</p>
+                </div>
+            </a>
+        </div>
+
+        <footer>
+            <p>Collection maintenue par la communauté. Contribuez sur <a href="https://github.com/Spysailor/awesome-mcp-servers">GitHub</a>.</p>
+            <p>MCP (Model Context Protocol) est un <a href="https://modelcontextprotocol.io/">protocole ouvert</a> qui permet aux modèles d'IA d'interagir avec des ressources externes.</p>
+        </footer>
+    </div>
+</body>
+</html>
