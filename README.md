@@ -1,6 +1,17 @@
-# Awesome MCP Servers
+# Awesome MCP Servers [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Une collection organisée de serveurs MCP (Model Context Protocol) disponibles pour étendre les capacités des LLM.
+
+## À propos du MCP
+
+Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un protocole ouvert qui permet aux modèles d'IA d'interagir de manière sécurisée avec des ressources locales et distantes. Consultez [notre introduction détaillée](INTRODUCTION.md) pour en savoir plus.
+
+## Collections spécialisées
+
+- [Liste des MCP pour bases de données](databases-mcp.md)
+- [Liste des MCP pour la finance et fintech](finance-mcp.md)
+- [Liste des MCP pour la connaissance et mémoire](knowledge-memory-mcp.md)
+- [Liste des frameworks pour développer des serveurs MCP](frameworks-mcp.md)
 
 ## Table des matières
 
@@ -164,26 +175,12 @@ Une collection organisée de serveurs MCP (Model Context Protocol) disponibles p
 
 ## Frameworks
 
-- [FastMCP](https://github.com/jlowin/fastmcp) 🐍 - Framework pour serveurs MCP en Python.
-- [FastMCP](https://github.com/punkpeye/fastmcp) 📇 - Framework pour serveurs MCP en TypeScript.
-- [Foxy Contexts](https://github.com/strowk/foxy-contexts) 🏎️ - Bibliothèque Golang pour MCP déclaratif.
-- [gabfr/waha-api-mcp-server](https://github.com/gabfr/waha-api-mcp-server) 📇 - Serveur MCP avec spécifications openAPI.
-- [Genkit MCP](https://github.com/firebase/genkit/tree/main/js/plugins/mcp) 📇 – Intégration Genkit et MCP.
-- [http4k MCP SDK](https://mcp.http4k.org) 🐍 - SDK Kotlin pour http4k.
-- [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent) 🤖 🔌 - Construction d'agents avec serveurs MCP.
-- [LiteMCP](https://github.com/wong2/litemcp) 📇 - Framework pour serveurs MCP en JavaScript/TypeScript.
-- [marimo-team/codemirror-mcp](https://github.com/marimo-team/codemirror-mcp) - Extension CodeMirror pour MCP.
-- [mark3labs/mcp-go](https://github.com/mark3labs/mcp-go) 🏎️ - SDK Golang pour MCP.
-- [mcp-framework](https://github.com/QuantGeekDev/mcp-framework) 📇 - Framework TypeScript pour MCP.
-- [mcp-proxy](https://github.com/punkpeye/mcp-proxy) - 📇 Proxy SSE TypeScript pour MCP.
-- [mcp-rs-template](https://github.com/linux-china/mcp-rs-template) 🦀 - Modèle de serveur MCP pour Rust.
-- [metoro-io/mcp-golang](https://github.com/metoro-io/mcp-golang) 🏎️ - Framework Golang pour MCP.
-- [mullerhai/sakura-mcp](https://github.com/mullerhai/sakura-mcp) 🦀 ☕ - Framework MCP Scala.
-- [paulotaylor/voyp-mcp](https://github.com/paulotaylor/voyp-mcp) 📇 - Serveur MCP pour appels vocaux.
-- [poem-web/poem-mcpserver](https://github.com/poem-web/poem/tree/master/poem-mcpserver) 🦀 - MCP pour Poem.
-- [quarkiverse/quarkus-mcp-server](https://github.com/quarkiverse/quarkus-mcp-server) ☕ - SDK Java pour Quarkus.
-- [rectalogic/langchain-mcp](https://github.com/rectalogic/langchain-mcp) 🐍 - Support MCP dans LangChain.
-- [ribeirogab/simple-mcp](https://github.com/ribeirogab/simple-mcp) 📇 - Bibliothèque TypeScript pour MCP.
-- [salty-flower/ModelContextProtocol.NET](https://github.com/salty-flower/ModelContextProtocol.NET) #️⃣ 🏠 - SDK C# pour .NET 9.
-- [spring-ai-mcp](https://github.com/spring-projects-experimental/spring-ai-mcp) ☕ 🌱 - SDK Java et Spring pour MCP.
-- [Template MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/template) 📇 - Modèle simple pour MCP.
+Voir la [liste complète des frameworks pour développer des serveurs MCP](frameworks-mcp.md).
+
+## Comment contribuer
+
+Si vous connaissez ou développez des serveurs MCP qui ne sont pas listés ici, n'hésitez pas à soumettre une pull request.
+
+## Licence
+
+Cette collection est sous licence MIT.
