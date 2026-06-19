@@ -153,6 +153,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 
 - [AbdelStark/nostr-mcp](https://github.com/AbdelStark/nostr-mcp) ☁️ - Un serveur MCP Nostr pour interagir avec Nostr.
 - [adhikasp/mcp-twikit](https://github.com/adhikasp/mcp-twikit) 🐍 ☁️ - Interagir avec Twitter.
+- [Xquik-dev/x-twitter-scraper](https://github.com/Xquik-dev/x-twitter-scraper) 📇 ☁️ - Automatisation X, recherche, profils, tendances, exports et webhooks.
 - [agentmail-toolkit/mcp](https://github.com/agentmail-to/agentmail-toolkit/tree/main/mcp) 🐍 💬 - Un serveur MCP pour les emails.
 - [arpitbatra123/mcp-googletasks](https://github.com/arpitbatra123/mcp-googletasks) 📇 ☁️ - Un serveur MCP pour Google Tasks.
 - [carterlasalle/mac_messages_mcp](https://github.com/carterlasalle/mac_messages_mcp) 🏠 🍎 🚀 - Un serveur MCP pour iMessage.
