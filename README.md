@@ -173,6 +173,10 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 - [InditexTech/mcp-teams-server](https://github.com/InditexTech/mcp-teams-server) 🐍 ☁️ - Serveur MCP pour Microsoft Teams.
 - [softeria/ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server) 📇 ☁️ - Serveur MCP pour Microsoft 365.
 
+## 🎯 Marketing
+
+- [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) ☁️ - Skills Claude Code open-source pour le SEO, le GEO, Google Ads et Meta Ads. Se connecte aux données en direct via le Google Ads MCP, Meta Ads MCP, Google Search Console MCP, et Google Analytics (GA4) MCP.
+
 ## Frameworks
 
 Voir la [liste complète des frameworks pour développer des serveurs MCP](frameworks-mcp.md).
