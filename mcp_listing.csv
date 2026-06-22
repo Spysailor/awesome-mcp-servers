@@ -63,6 +63,7 @@ tumf/mcp-shell-server,https://github.com/tumf/mcp-shell-server,Ligne de Commande
 wonderwhy-er/DesktopCommanderMCP,https://github.com/wonderwhy-er/DesktopCommanderMCP,Ligne de Commande,TypeScript,Local,macOS/Windows/Linux,Un couteau suisse pour les programmes et fichiers,Non
 AbdelStark/nostr-mcp,https://github.com/AbdelStark/nostr-mcp,Communication,,Cloud,,Un serveur MCP Nostr pour interagir avec Nostr,Non
 adhikasp/mcp-twikit,https://github.com/adhikasp/mcp-twikit,Communication,Python,Cloud,,Interagir avec Twitter,Non
+Xquik-dev/x-twitter-scraper,https://github.com/Xquik-dev/x-twitter-scraper,Communication,TypeScript,Cloud,,Automatisation X recherche profils tendances exports et webhooks,Non
 agentmail-toolkit/mcp,https://github.com/agentmail-to/agentmail-toolkit/tree/main/mcp,Communication,Python,,,Un serveur MCP pour les emails,Non
 arpitbatra123/mcp-googletasks,https://github.com/arpitbatra123/mcp-googletasks,Communication,TypeScript,Cloud,,Un serveur MCP pour Google Tasks,Non
 carterlasalle/mac_messages_mcp,https://github.com/carterlasalle/mac_messages_mcp,Communication,,Local,macOS,Un serveur MCP pour iMessage,Non
