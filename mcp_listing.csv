@@ -6,6 +6,7 @@ VeriTeknik/pluggedin-mcp-proxy,https://github.com/VeriTeknik/pluggedin-mcp-proxy
 MetaMCP,https://github.com/metatool-ai/metatool-app,Agrégateurs,TypeScript,Cloud/Local,macOS/Windows/Linux,MetaMCP est le middleware MCP unifié qui gère vos connexions MCP,Non
 abhiemj/manim-mcp-server,https://github.com/abhiemj/manim-mcp-server,Art et Culture,Python,Local,Windows/Linux,Un serveur MCP local qui génère des animations en utilisant Manim,Non
 burningion/video-editing-mcp,https://github.com/burningion/video-editing-mcp,Art et Culture,Python,,,Ajouter analyser rechercher et générer des montages vidéo,Non
+runapi-ai/mcp,https://github.com/runapi-ai/mcp,Art et Culture,TypeScript,Cloud,,Serveur MCP pour lancer des tâches de génération d'images de vidéos de musique et audio et d'autres modèles via RunAPI,Non
 djalal/quran-mcp-server,https://github.com/djalal/quran-mcp-server,Art et Culture,TypeScript,Cloud,,Serveur MCP pour interagir avec le corpus Quran.com,Non
 r-huijts/rijksmuseum-mcp,https://github.com/r-huijts/rijksmuseum-mcp,Art et Culture,TypeScript,Cloud,,Intégration de l'API du Rijksmuseum pour les œuvres d'art,Non
 r-huijts/oorlogsbronnen-mcp,https://github.com/r-huijts/oorlogsbronnen-mcp,Art et Culture,TypeScript,Cloud,,Intégration de l'API Oorlogsbronnen (Sources de guerre),Non
