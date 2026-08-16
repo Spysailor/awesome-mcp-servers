@@ -13,6 +13,7 @@ samuelgursky/davinci-resolve-mcp,https://github.com/samuelgursky/davinci-resolve
 yuna0x0/anilist-mcp,https://github.com/yuna0x0/anilist-mcp,Art et Culture,TypeScript,Cloud,,Un serveur MCP intégrant l'API AniList pour les informations sur les animes et mangas,Non
 diivi/aseprite-mcp,https://github.com/diivi/aseprite-mcp,Art et Culture,Python,Local,,Serveur MCP utilisant l'API Aseprite pour créer de l'art pixel,Non
 34892002/bilibili-mcp-js,https://github.com/34892002/bilibili-mcp-js,Automatisation de Navigateur,TypeScript,Local,,Un serveur MCP qui prend en charge la recherche de contenu Bilibili,Non
+vostride/agent-qa,https://github.com/vostride/agent-qa,Automatisation de Navigateur,TypeScript,Local,,Tests de régression web et mobile en langage naturel avec mémoire persistante et interfaces CLI/MCP,Oui
 automatalabs/mcp-server-playwright,https://github.com/Automata-Labs-team/MCP-Server-Playwright,Automatisation de Navigateur,Python,,,Un serveur MCP pour l'automatisation de navigateur utilisant Playwright,Non
 blackwhite084/playwright-plus-python-mcp,https://github.com/blackwhite084/playwright-plus-python-mcp,Automatisation de Navigateur,Python,,,Un serveur MCP python utilisant Playwright,Non
 browserbase/mcp-server-browserbase,https://github.com/browserbase/mcp-server-browserbase,Automatisation de Navigateur,TypeScript,,,Automatisez les interactions avec le navigateur dans le cloud,Oui
