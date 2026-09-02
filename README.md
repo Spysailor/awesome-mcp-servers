@@ -168,6 +168,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 - [modelcontextprotocol/server-slack](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) 📇 ☁️ - Intégration de Slack.
 - [sawa-zen/vrchat-mcp](https://github.com/sawa-zen/vrchat-mcp) - 📇 🏠 Serveur MCP pour l'API VRChat.
 - [takumi0706/google-calendar-mcp](https://github.com/takumi0706/google-calendar-mcp) 📇 ☁️ - Un serveur MCP pour Google Calendar.
+- [azeemkafridi/bulkpublish-api](https://github.com/azeemkafridi/bulkpublish-api) ☁️ - Planifier, adapter, relire, programmer et publier en lot du contenu pour les réseaux sociaux via MCP. Voir les [compétences de contenu social](https://github.com/azeemkafridi/bulkpublish-api/tree/main/skills/social-media-content-skills) et la [documentation](https://app.bulkpublish.com/docs).
 - [teddyzxcv/ntfy-mcp](https://github.com/teddyzxcv/ntfy-mcp) - Le serveur MCP qui envoie des notifications via ntfy.
 - [userad/didlogic_mcp](https://github.com/UserAd/didlogic_mcp) 🐍 ☁️ - Un serveur MCP pour DIDLogic.
 - [zcaceres/gtasks-mcp](https://github.com/zcaceres/gtasks-mcp) 📇 ☁️ - Un serveur MCP pour Google Tasks.
