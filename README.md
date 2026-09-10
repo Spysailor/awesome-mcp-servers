@@ -79,6 +79,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 - [abhiemj/manim-mcp-server](https://github.com/abhiemj/manim-mcp-server) 🐍 🏠 🪟 🐧 - Un serveur MCP local qui génère des animations en utilisant Manim.
 - [burningion/video-editing-mcp](https://github.com/burningion/video-editing-mcp) 🐍 - Ajouter, analyser, rechercher et générer des montages vidéo.
 - [djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server) 📇 ☁️ - Serveur MCP pour interagir avec le corpus Quran.com.
+- [OrkasVideoStudio](https://github.com/Orkas-AI/Orkas-VideoStudio) 📇 🏠 - Boîte à outils CLI et MCP TypeScript sous licence MIT pour composer, monter, générer et assembler des vidéos à partir de timelines plan.json modifiables.
 - [r-huijts/rijksmuseum-mcp](https://github.com/r-huijts/rijksmuseum-mcp) 📇 ☁️ - Intégration de l'API du Rijksmuseum pour les œuvres d'art.
 - [r-huijts/oorlogsbronnen-mcp](https://github.com/r-huijts/oorlogsbronnen-mcp) 📇 ☁️ - Intégration de l'API Oorlogsbronnen (Sources de guerre).
 - [samuelgursky/davinci-resolve-mcp](https://github.com/samuelgursky/davinci-resolve-mcp) 🐍 - Intégration de serveur MCP pour DaVinci Resolve.
