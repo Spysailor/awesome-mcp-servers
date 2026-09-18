@@ -189,3 +189,7 @@ Si vous connaissez ou développez des serveurs MCP qui ne sont pas listés ici, 
 ## Licence
 
 Cette collection est sous licence MIT.
+
+## Research & Data
+
+- [Statsnet](https://github.com/usenetstate/statsnet-mcp) - Background check any company in the world: registration, executives, courts and finances. Remote: `https://statsnet.co/mcp` · Registry: `io.github.usenetstate/statsnet`
