@@ -121,3 +121,4 @@ ribeirogab/simple-mcp,https://github.com/ribeirogab/simple-mcp,Frameworks,TypeSc
 salty-flower/ModelContextProtocol.NET,https://github.com/salty-flower/ModelContextProtocol.NET,Frameworks,C#,Local,,SDK C# pour .NET 9,Non
 spring-ai-mcp,https://github.com/spring-projects-experimental/spring-ai-mcp,Frameworks,Java,,,SDK Java et Spring pour MCP,Non
 Template MCP Server,https://github.com/modelcontextprotocol/servers/tree/main/src/template,Frameworks,TypeScript,,,Modèle simple pour MCP,Non
+louis030195/hyperconsciousness,https://github.com/louis030195/hyperconsciousness,Connaissance et Mémoire,Rust,Local,,"Stockage de connaissances en Rust, en version alpha pour développeurs : enregistrements chiffrés à ajout uniquement, synchronisation entre appareils et accès MCP limité par des autorisations à portée et durée définies.",Oui
