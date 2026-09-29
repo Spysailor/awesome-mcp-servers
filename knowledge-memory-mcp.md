@@ -5,6 +5,7 @@ Liste des serveurs MCP dédiés au stockage et à la récupération de connaissa
 ## Systèmes de Mémoire Persistante
 
 - [CheMiguel23/MemoryMesh](https://github.com/CheMiguel23/MemoryMesh) 📇 🏠 - Mémoire améliorée basée sur graphe pour le jeu de rôle IA.
+- [louis030195/hyperconsciousness](https://github.com/louis030195/hyperconsciousness) 🦀 🏠 - Stockage de connaissances en Rust, en version alpha pour développeurs : enregistrements chiffrés à ajout uniquement, synchronisation entre appareils et accès MCP limité par des autorisations à portée et durée définies.
 - [mem0ai/mem0-mcp](https://github.com/mem0ai/mem0-mcp) 🐍 🏠 - Un serveur MCP pour Mem0 qui aide à gérer les préférences de codage.
 - [modelcontextprotocol/server-memory](https://github.com/modelcontextprotocol/servers/tree/main/src/memory) 📇 🏠 - Système de mémoire persistante basé sur graphe de connaissances.
 - [topoteretes/cognee](https://github.com/topoteretes/cognee/tree/dev/cognee-mcp) 📇 🏠 - Gestionnaire de mémoire pour applications IA et agents.
