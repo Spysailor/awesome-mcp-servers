@@ -52,6 +52,7 @@ Liste des serveurs MCP dédiés à la finance et aux technologies financières.
 
 ## Outils de Transaction
 
+- [nuanu-ai/agent-payment-node](https://github.com/nuanu-ai/agent-payment-node) 📇 🏠 🍎 - Outils stdio locaux pour examiner les offres x402, préparer des paiements bornés et consulter les statuts et reçus ; Apple Silicon macOS et Node 24 uniquement.
 - [kukapay/jupiter-mcp](https://github.com/kukapay/jupiter-mcp) 🐍 ☁️ - Échanges de jetons sur Solana via Jupiter.
 - [kukapay/token-minter-mcp](https://github.com/kukapay/token-minter-mcp) 🐍 ☁️ - Création de jetons ERC-20.
 - [kukapay/token-revoke-mcp](https://github.com/kukapay/token-revoke-mcp) 🐍 ☁️ - Vérification et révocation d'autorisations de jetons.
