@@ -178,6 +178,10 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 
 - [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) ☁️ - Skills Claude Code open-source pour le SEO, le GEO, Google Ads et Meta Ads. Se connecte aux données en direct via le Google Ads MCP, Meta Ads MCP, Google Search Console MCP, et Google Analytics (GA4) MCP.
 
+## 📊 Monitoring
+
+- [seifip/kilobat-cli](https://github.com/seifip/kilobat-cli) 🏠 🍎 - Serveur MCP local pour diagnostiquer les connexions et observer le réseau sur macOS.
+
 ## Frameworks
 
 Voir la [liste complète des frameworks pour développer des serveurs MCP](frameworks-mcp.md).
