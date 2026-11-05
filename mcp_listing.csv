@@ -121,3 +121,4 @@ ribeirogab/simple-mcp,https://github.com/ribeirogab/simple-mcp,Frameworks,TypeSc
 salty-flower/ModelContextProtocol.NET,https://github.com/salty-flower/ModelContextProtocol.NET,Frameworks,C#,Local,,SDK C# pour .NET 9,Non
 spring-ai-mcp,https://github.com/spring-projects-experimental/spring-ai-mcp,Frameworks,Java,,,SDK Java et Spring pour MCP,Non
 Template MCP Server,https://github.com/modelcontextprotocol/servers/tree/main/src/template,Frameworks,TypeScript,,,Modèle simple pour MCP,Non
+azmartone67/dchub-mcp-server,https://github.com/azmartone67/dchub-mcp-server,Énergie et Data Centers,TypeScript,Cloud,,DC Hub is the live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power across 300+ markets. Remote https://dchub.cloud/mcp,Non
