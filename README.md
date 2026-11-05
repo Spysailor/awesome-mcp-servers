@@ -37,6 +37,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 - [🗺️ Services de Localisation](#-services-de-localisation)
 - [🎯 Marketing](#-marketing)
 - [📊 Monitoring](#-monitoring)
+- [⚡ Énergie et Data Centers](#-énergie-et-data-centers)
 - [🔎 Recherche et Extraction de Données](#-recherche-et-extraction-de-données)
 - [🔒 Sécurité](#-sécurité)
 - [🏃 Sports](#-sports)
@@ -173,6 +174,11 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 - [zcaceres/gtasks-mcp](https://github.com/zcaceres/gtasks-mcp) 📇 ☁️ - Un serveur MCP pour Google Tasks.
 - [InditexTech/mcp-teams-server](https://github.com/InditexTech/mcp-teams-server) 🐍 ☁️ - Serveur MCP pour Microsoft Teams.
 - [softeria/ms-365-mcp-server](https://github.com/softeria/ms-365-mcp-server) 📇 ☁️ - Serveur MCP pour Microsoft 365.
+
+
+## ⚡ Énergie et Data Centers
+
+- [azmartone67/dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server) 📇 ☁️ - DC Hub is the live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power, across 300+ markets. Remote MCP: https://dchub.cloud/mcp (94 tools, free to start).
 
 ## 🎯 Marketing
 
