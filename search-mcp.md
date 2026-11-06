@@ -32,3 +32,7 @@ Cette liste répertorie les serveurs MCP dédiés à la recherche et l'extractio
 - [getrupt/ashra-mcp](https://github.com/getrupt/ashra-mcp) 🐍 🏠 - Extraction de données structurées de sites web.
 - [jae-jae/fetcher-mcp](https://github.com/jae-jae/fetcher-mcp) 📇 🏠 - Récupération de contenu web.
 - [modelcontextprotocol/server-fetch](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch) 🐍 🏠 ☁️ - Récupération et traitement.
+
+## Emploi et Recrutement
+
+- [jobspipe/mcp](https://github.com/jobspipe/mcp) 🎖️ ☁️ - Recherche d'offres d'emploi live depuis 30+ flux ATS et job boards dans un schéma normalisé (filtres titre, compétences, remote, séniorité, récence). Endpoint hébergé: `https://mcp.jobspipe.dev/mcp`. Docs: https://docs.jobspipe.dev/ai-agents/mcp
