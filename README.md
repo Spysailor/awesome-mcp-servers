@@ -89,6 +89,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 ## 📂 Automatisation de Navigateur
 
 - [34892002/bilibili-mcp-js](https://github.com/34892002/bilibili-mcp-js) 📇 🏠 - Un serveur MCP qui prend en charge la recherche de contenu Bilibili.
+- [vostride/agent-qa](https://github.com/vostride/agent-qa) 🎖️ 📇 🏠 - Agent QA pour les tests de régression web et mobile en langage naturel, avec mémoire persistante et interfaces CLI/MCP.
 - [automatalabs/mcp-server-playwright](https://github.com/Automata-Labs-team/MCP-Server-Playwright) 🐍 - Un serveur MCP pour l'automatisation de navigateur utilisant Playwright.
 - [blackwhite084/playwright-plus-python-mcp](https://github.com/blackwhite084/playwright-plus-python-mcp) 🐍 - Un serveur MCP python utilisant Playwright.
 - [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) 🎖️ 📇 - Automatisez les interactions avec le navigateur dans le cloud.
