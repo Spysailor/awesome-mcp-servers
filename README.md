@@ -183,6 +183,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 ## 🎯 Marketing
 
 - [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) ☁️ - Skills Claude Code open-source pour le SEO, le GEO, Google Ads et Meta Ads. Se connecte aux données en direct via le Google Ads MCP, Meta Ads MCP, Google Search Console MCP, et Google Analytics (GA4) MCP.
+- [vaneform/vaneform-mcp](https://github.com/vaneform/vaneform-mcp) ☁️ - Serveur MCP hébergé pour consulter gratuitement le trafic d'un site (visites mensuelles, sources, pays) via `https://vaneform.com/mcp`.
 
 ## 📊 Monitoring
 
