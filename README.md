@@ -128,6 +128,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 - [wenhuwang/mcp-k8s-eye](https://github.com/wenhuwang/mcp-k8s-eye) 🏎️ ☁️/🏠 Serveur MCP pour la gestion Kubernetes.
 - [erikhoward/adls-mcp-server](https://github.com/erikhoward/adls-mcp-server) - 🐍 ☁️/🏠 Serveur MCP pour Azure Data Lake Storage.
 - [silenceper/mcp-k8s](https://github.com/silenceper/mcp-k8s) 🏎️ ☁️/🏠 MCP-K8S est un outil de gestion Kubernetes piloté par l'IA.
+- [ORANO Personal Context MCP](https://github.com/manuvamp/orano-mcp-examples) 🎖️ ☁️ - Serveur MCP distant hébergé (Streamable HTTP) et propriétaire pour ORANO : Claude, ChatGPT ou Cursor peuvent rechercher dans votre bibliothèque de Reels, vidéos et articles (résumés, plans, mémoire) avec une clé API personnelle. [Documentation](https://oranoai.com/mcp/docs).
 
 ## 👨‍💻 Exécution de Code
 
