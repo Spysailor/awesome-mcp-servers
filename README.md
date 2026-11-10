@@ -182,6 +182,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 
 ## 🎯 Marketing
 
+- [waynehamadi/datacircle](https://github.com/waynehamadi/datacircle) ☁️ - Notre serveur MCP est ouvert à tous, sans clé : ajoutez api.datacircle.dev/mcp à Claude, ChatGPT ou Cursor. Trouvez les meilleures API GTM. Site : [datacircle.dev](https://datacircle.dev).
 - [nowork-studio/NotFair](https://github.com/nowork-studio/NotFair) ☁️ - Skills Claude Code open-source pour le SEO, le GEO, Google Ads et Meta Ads. Se connecte aux données en direct via le Google Ads MCP, Meta Ads MCP, Google Search Console MCP, et Google Analytics (GA4) MCP.
 
 ## 📊 Monitoring
