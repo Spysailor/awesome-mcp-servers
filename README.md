@@ -178,7 +178,7 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 
 ## ⚡ Énergie et Data Centers
 
-- [azmartone67/dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server) 📇 ☁️ - DC Hub is the live data layer for data-center site selection. Its Data Center Power Index (DCPI) is a daily score of where data centers can get grid power, across 300+ markets. Remote MCP: https://dchub.cloud/mcp (94 tools, free to start).
+- [azmartone67/dchub-mcp-server](https://github.com/azmartone67/dchub-mcp-server) 📇 ☁️ - DC Hub is the orchestration layer for data center and energy intelligence. Start with execute_plan for grid power, electricity prices or interconnection queues. It also publishes the Data Center Power Index (DCPI). Remote MCP: https://dchub.cloud/mcp (96 tools). DCHUB_API_KEY is optional.
 
 ## 🎯 Marketing
 
