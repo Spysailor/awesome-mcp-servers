@@ -188,6 +188,10 @@ Le [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) est un proto
 
 - [seifip/kilobat-cli](https://github.com/seifip/kilobat-cli) 🏠 🍎 - Serveur MCP local pour diagnostiquer les connexions et observer le réseau sur macOS.
 
+## 🚆 Voyage et Transport
+
+- [aleksandrjefimov4-crypto/cheapcarent-mcp](https://github.com/aleksandrjefimov4-crypto/cheapcarent-mcp) 🎖️ 📇 ☁️ - Serveur MCP officiel en lecture seule pour rechercher des voitures de location et lister les villes et aéroports de prise en charge. HTTP Streamable : https://cheapcarent.com/mcp.
+
 ## Frameworks
 
 Voir la [liste complète des frameworks pour développer des serveurs MCP](frameworks-mcp.md).
